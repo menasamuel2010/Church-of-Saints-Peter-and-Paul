@@ -1,0 +1,1335 @@
+<!DOCTYPE html>
+
+<html lang="ar">
+
+ <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>كنيسة القديسين بطرس وبولس</title>
+</head>
+<body>
+
+</head>        
+<body>
+    </div>
+
+    <div class="top-bar">
+
+        <div class="social-media">
+            <a href="https://web.facebook.com/groups/332492051629992/?_rdc=1&_rdr" target="_blank">
+                <img src="https://h.top4top.io/p_3119p8wky1.png" alt="فيسبوك">
+                <div class="social-media">
+                    <a href="https://www.youtube.com/@PeterAndPoul/videos" target="_blank">
+                        <img src="https://i.top4top.io/p_3119pmzxm2.png" alt="">
+
+                </a>
+                
+            </head>        
+            <body>
+            </div>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        
+       
+        @import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
+
+        .top-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #800000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+}
+
+.social-media a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+
+.social-media a:hover {
+    color: #007BFF;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+
+        body {
+
+            font-family: 'Amiri', serif;
+
+        }
+
+
+        .about-section {
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 50px;
+            opacity: 0;
+            transform: translateY(50px);
+            transition: opacity 1s, transform 1s;
+        }
+
+
+        .about-section.show {
+
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+
+        .about-section img {
+
+            max-width: 300px;
+            border-radius: 15px;
+        }
+
+
+        .about-section .text {
+
+            max-width: 500px;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+
+        @media(min-width: 768px) {
+            .about-section {
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            .top-bar {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    background-color: #800000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.register-button {
+    background-color: #007bff;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.register-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+
+            .about-section .text {
+
+                margin-top: 0;
+                text-align: right;
+                margin-left: 20px;
+            }
+
+        }
+
+
+        body {
+
+            font-family: 'Amiri', serif;
+        }
+
+
+        body.light-mode {
+
+            background-color: #f8f9fa;
+            color: #000000;
+        }
+
+
+        body.dark-mode {
+
+            background-color: #000000;
+            color: #f8f9fa;
+        }
+
+
+        .navbar {
+
+            background-color: #800000;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+
+
+        .navbar .site-name {
+
+            font-size: 1.5em;
+        }
+
+
+        .fathers-section {
+
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 50px;
+            opacity: 0;
+            transform: translateY(50px);
+            transition: opacity 1s, transform 1s;
+        }
+
+
+        .fathers-section.show {
+
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+
+        .fathers-section .father {
+
+            text-align: center;
+            margin: 20px;
+        }
+
+
+        .fathers-section .father img {
+
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+
+        .fathers-section .father .name {
+
+            margin-top: 10px;
+            font-size: 1.2em;
+        }
+
+
+        .toggle-btn,
+
+        .theme-toggle {
+
+            background-color: #800000;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+
+        .toggle-btn {
+
+            position: relative;
+            top: 0;
+            right: 0;
+        }
+
+
+        .theme-toggle {
+            
+            position: fixed;
+            top: 10px;
+            left: 10px;
+        }
+
+
+        .donation-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s, transform 1s;
+}
+
+.donation-section.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+
+        .sidebar {
+
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 250px;
+            background-color: #111;
+            color: white;
+            padding-top: 60px;
+            transform: translateX(-100%);
+            transition: transform 0.3s ease;
+        }
+
+
+        .sidebar.show {
+
+            transform: translateX(0);
+        }
+
+
+        .sidebar a {
+
+            padding: 10px 15px;
+            text-decoration: none;
+            color: white;
+            display: block;
+        }
+
+
+        .sidebar a:hover {
+
+            background-color: #575757;
+        }
+
+
+        .container {
+
+            max-width: 600px;
+            margin-top: 50px;
+        }
+
+
+        .form-control {
+
+            margin-bottom: 10px;
+        }
+
+
+        .btn-primary {
+
+            background-color: #800000;
+            border: none;
+        }
+
+        footer {
+    background: #1f1f1f;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+    font-size: 0.875rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+footer a {
+    color: #3ad1ff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #1e90ff;
+}
+
+
+
+        #loginSection {
+
+            display: none;
+        }
+
+
+        #homepageSection {
+
+            display: none;
+        }
+
+
+        .main-content {
+
+            padding: 20px;
+        }
+
+
+        .main-content img {
+
+            max-width: 100%;
+            height: auto;
+        }
+
+
+        .about-section {
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 50px;
+            opacity: 0;
+            transform: translateY(50px);
+            transition: opacity 1s, transform 1s;
+        }
+
+
+        .contact-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.contact-button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+}
+
+
+
+        .about-section.show {
+
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+
+        .about-section img {
+
+            max-width: 300px;
+            border-radius: 15px;
+        }
+
+
+        .about-section .text {
+
+            max-width: 500px;
+            margin-left: 20px;
+        }
+
+
+        .theme-switch-wrapper {
+
+            display: flex;
+            align-items: center;
+        }
+
+
+        .theme-switch {
+
+            display: none;
+        }
+
+
+        .theme-switch-label {
+
+            background-color: #111;
+            border: 2px solid #fff;
+            border-radius: 30px;
+            cursor: pointer;
+            height: 30px;
+            position: relative;
+            width: 60px;
+        }
+
+
+        .theme-switch-label:before {
+
+            background-color: #fff;
+            border-radius: 50%;
+            content: '';
+            height: 26px;
+            position: absolute;
+            top: 1px;
+            left: 1px;
+            width: 26px;
+            transition: transform 0.3s ease;
+        }
+
+
+        .theme-switch:checked+.theme-switch-label:before {
+
+            transform: translateX(30px);
+        }
+
+
+        .theme-switch-label .icon {
+
+            font-size: 12px;
+            height: 100%;
+            line-height: 26px;
+            position: absolute;
+            text-align: center;
+            top: 0;
+            width: 26px;
+        }
+
+
+        .contact-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s, transform 1s;
+}
+
+.contact-section.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+
+        .theme-switch-label .icon-sun {
+
+            left: 1px;
+        }
+
+
+        .theme-switch-label .icon-moon {
+
+            right: 1px;
+        }
+
+
+        .container {
+
+            max-width: 600px;
+            margin-top: 50px;
+        }
+
+
+        .form-control {
+
+            margin-bottom: 10px;
+        }
+
+
+        .btn-primary {
+
+            background-color: #800000;
+            border: none;
+        }
+
+
+        #loginSection {
+
+            display: none;
+        }
+
+
+        #homepageSection {
+
+            display: none;
+        }
+
+
+        .main-content {
+
+            padding: 20px;
+
+        }
+
+        .about-section {
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 50px;
+            opacity: 0;
+            transform: translateY(50px);
+            transition: opacity 1s, transform 1s;
+        }
+
+
+        .about-section.show {
+
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+
+        .about-section img {
+
+            max-width: 300px;
+            border-radius: 15px;
+        }
+
+
+        .about-section .text {
+
+            max-width: 500px;
+            margin-left: 20px;
+        }
+
+
+        .fathers-section {
+
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 50px;
+            opacity: 0;
+            transform: translateY(50px);
+            transition: opacity 1s, transform 1s;
+        }
+
+
+        .fathers-section.show {
+
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+
+        .father-card {
+
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+
+        .father-card img {
+
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+
+        .father-card p {
+
+            margin-top: 10px;
+        }
+
+
+
+    </style>
+    
+    
+    
+
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+    <script type="text/javascript">
+
+        (function() {
+
+            emailjs.init("KFcDDDbzgR5zRrCM3");
+
+        })();
+
+    </script>
+
+<script>
+
+    document.addEventListener("DOMContentLoaded", function() {
+        const loginForm = document.getElementById("loginForm");
+        const loginSection = document.getElementById("loginSection");
+        const homepageSection = document.getElementById("homepageSection");
+        const usernameSpan = document.getElementById("username");
+
+
+        loginForm.addEventListener("submit", function(e) {
+
+            e.preventDefault();
+
+
+            const formData = new FormData(loginForm);
+            const firstName = formData.get("firstName");
+            const lastName = formData.get("lastName");
+            const email = formData.get("email");
+            const phone = formData.get("phone");
+
+
+            const emailParams = {
+
+                to_email: "menasamo2010@gmail.com",
+                from_email: email,
+                firstName: firstName,
+                lastName: lastName,
+                phone: phone
+
+            };
+
+
+            emailjs.send("service_z2bjkzk", "template_tu63ek3", emailParams)
+
+                .then(function(response) {
+                    console.log("SUCCESS!", response.status, response.text);
+
+                }, function(error) {
+                    console.log("FAILED...", error);
+                });
+
+
+            localStorage.setItem("firstName", firstName);
+            localStorage.setItem("lastName", lastName);
+            localStorage.setItem("email", email);
+
+
+
+            usernameSpan.textContent = `${firstName} ${lastName}`;
+
+
+            loginSection.style.display = "none";
+
+            homepageSection.style.display = "block";
+        });
+
+
+        const firstName = localStorage.getItem("firstName");
+        const lastName = localStorage.getItem("lastName");
+
+
+
+        if (firstName && lastName) {
+            usernameSpan.textContent = `${firstName} ${lastName}`;
+            loginSection.style.display = "none";
+            homepageSection.style.display = "block";
+
+        } else {
+
+            loginSection.style.display = "block";
+            homepageSection.style.display = "none";
+        }
+
+
+        const toggleBtn = document.querySelector('.toggle-btn');
+
+        const sidebar = document.querySelector('.sidebar');
+
+
+        toggleBtn.addEventListener('click', function() {
+            sidebar.classList.toggle('show');
+        });
+
+
+        const themeSwitch = document.getElementById("theme-switch");
+        const body = document.body;
+
+
+        themeSwitch.addEventListener("change", function() {
+
+            if (themeSwitch.checked) {
+                body.classList.remove("light-mode");
+                body.classList.add("dark-mode");
+
+            } else {
+                body.classList.remove("dark-mode");
+                body.classList.add("light-mode");
+            }
+
+        });
+
+    });
+
+
+</script>
+
+
+</head>
+
+<body class="light-mode">
+
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("user_7iPqN6A4xDFZhWm7ueBly");
+        })();
+    </script>
+</head>
+<body>
+
+
+    <body class="light-mode">
+        <div id="loginSection" class="container">
+            <h2 class="text-center">مرحبا بكم في كنيسه القديس‍ين بطرس و بولس بشبين الكوم</h2>
+            <h2 class="text-center">تسجيل الدخول</h2>
+            <form id="loginForm">
+                
+                <input type="text" name="firstName" class="form-control" placeholder="الاسم الأول" required>
+                <input type="text" name="lastName" class="form-control" placeholder="الاسم الأخير" required>
+                <input type="email" name="email" class="form-control" placeholder="البريد الإلكتروني" required>
+                <input type="text" name="phone" class="form-control" placeholder="رقم الهاتف" required>
+                <input type="password" name="password" class="form-control" placeholder="كلمة المرور" required>
+                <input type="password" name="confirmPassword" class="form-control" placeholder="تأكيد كلمة المرور" required>
+                <button type="submit" class="btn btn-primary btn-block">تسجيل الدخول</button>
+            </section>
+           
+            </form>
+        
+        </head>
+
+
+        
+        </div>
+    </form>
+
+</div>
+        
+    
+    </div>
+        
+ </section>
+    <section id="homepageSection">
+        <nav class="navbar navbar-expand-lg">
+            <div class="theme-switch-wrapper">
+                <input type="checkbox" id="theme-switch" class="theme-switch">
+                <label for="theme-switch" class="theme-switch-label">
+                    <span class="icon icon-sun"></span>
+                    <span class="icon icon-moon"></span>
+
+                </label>
+
+                <span class="site-name">كنيسة القديسين بطرس وبولس</span>
+
+            </div>
+
+            <button class="toggle-btn">☰</button>
+
+        </nav>
+
+   
+        
+        <div class="sidebar">
+            <a href="index.html">الصفحة الرئيسية</a>
+            <a href="enjeel.html">الإنجيل المقدس</a>
+            <a href="https://orsozox.org/Agpeya/Agpeya-ar.htm">الأجبية</a>
+            <a href="khulagi.html">الخلاجي</a>
+            <a href="https://zm-coptic.com/holybible/katamars.php">القطمارس</a>
+            <a href="chat.html">الشات</a>
+        </div>
+        
+        
+
+        </div>
+
+        <div class="main-content">
+            <h1>سلام يا <span id="userFirstName"></span> <span id="userLastName"></span></h1>
+            <img src="https://i.top4top.io/p_31174uq1f1.png" alt="صورة الكنيسة" class="img-fluid">
+
+        </div>
+
+            <div class="about-section" id="aboutSection">
+                <img src="https://i.top4top.io/p_31174uq1f1.png" alt="About Image">
+                <div class="text">
+                    <h2>عن الكنيسة</h2>
+                    <p>تعد كنيسة القديسين بطرس وبولس هي الكنيسة الثالثة بعد كنستي الشهيد مار جرجس والأخرى السيدة العذراء مريم التابعين لايبارشية كرسي المنوفية و كانت تتبع طائفة الأقباط الكاثوليك و في عام 2007 تم شراء الكنيسة و تدشينها بيد صاحب النيافة الحبر الجليل الأنبا بنيامين وتعرضت الكنيسة بحريق هائل يوم الأربعاء الموافق تسعة من شهر سبتمبر عام ألفين و تسعه 2009/09/9 الساعة الثالثة ظهرا كان هناك فى هذا اليوم قداس انتهى الساعة الحادية عشر صباحا و قد زعم البعض انه ماس كهربى او شمعة هى التى سببت هذا الحريق الهائل الذى سبب خسائر فادحة و هي 11 تكييف، 3 تلفزيونات، 15 مقعد، 4 مقصورات خاصة بأجساد القديسين و الله حفظ أجساد القديسين و لم يحدث اي شئ في اي جسد من أجساد القديسين و قدرت هذه الخسائر بمائة ألف جنيه قد أثبت أنه ليس ماس كهربى لان لوحة المفاتيح كانت مغلقة وسليمة تماما وكان الخادم المسئول عن حماية الكنيسة جدا فى أعماله ولا يوجد ايضا اى شمعة يوم الاربعاء يوجد الشمع فقط يومي الأحد والجمعة فالحريق لم يتم بشمعة أو ماس كهربى و تم تجديد الكنيسة  بالكامل والان يتم بناء كنيسة أخرى تابعة لهذه الكنيسة</p>
+                    </div>
+
+            </div>
+
+
+          <div class="fathers-section" id="fathersSection">
+            <div class="text">
+            </div>
+            <h2>اباء الكنيسه</h2>
+            
+
+
+                <div class="father-card">
+                    <img src="https://f.top4top.io/p_31176600c1.jpg" alt="Father 1">
+                    <p>القمص بولس حنا</p>
+
+                </div>
+
+                <div class="father-card">
+                    <img src="https://g.top4top.io/p_311752lrw2.jpg" alt="Father 2">
+                    <p>القس بطرس داود</p>
+
+                 </div>
+
+                <div class="father-card">
+                    <img src="https://h.top4top.io/p_3117udz293.jpg" alt="Father 3">
+                    <p>القس برنباس نادي</p>
+
+                </div>
+
+                <div class="father-card">
+                    <img src="https://k.top4top.io/p_3117fq6t12.png" alt="Father 4">
+                    <p>القس ياكوبوس/p>
+
+                </div>
+
+            </div>
+            
+<div class="fathers-section" id="fathersSection">
+</div>
+
+<div class="donation-section" id="donationSection">
+    <h2>التبرع</h2>
+    <div id="paypal-button-container"></div>
+    <p>الكنيسة تقبل تبرعاتكم وعطاياكم على الارقام التاليه و الْمُعْطِيَ الْمَسْرُورَ يُحِبُّهُ اللهُ (2 كو 9: 7)</p>
+</div>
+
+
+<div class="contact-section" id="contactSection">
+    <button class="contact-button" onclick="location.href='+20 1221734388'">القمص بولس حنا</button>
+    <button class="contact-button" onclick="location.href=''">القس بطرس داود</button>
+</div>
+
+
+
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy;جميع الحقوق محفوظه لكنسه القديسين بطرس و بولس بشبين الكوم</p>
+        <p>تصميم وتطوير بواسطة <a href="https://www.misatechnoly.online/designer" target="_blank">Mina Samuel</a></p>
+        <p>مع شركه<a href="https://www.misatechnoly.online" target="_blank">MISA Technolgy</a></p>
+    </footer>
+    
+    
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const sections = document.querySelectorAll('.about-section, .fathers-section, .donation-section, .contact-section');
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('show');
+                } else {
+                    entry.target.classList.remove('show');
+                }
+            });
+        }, {
+            threshold: 0.1
+        });
+
+        sections.forEach(section => {
+            observer.observe(section);
+        });
+    });
+</script>
+
+
+    <script>
+
+emailjs.send("service_zuwciwm", "template_tu63ek3", emailParams)
+    .then(function(response) {
+        console.log("SUCCESS!", response.status, response.text);
+    }, function(error) {
+        console.log("FAILED...", error);
+    });
+
+
+        document.addEventListener("PGtztibZ6P4HIegi4", function() {
+            const loginForm = document.getElementById("loginForm");
+            const loginSection = document.getElementById("loginSection");
+            const homepageSection = document.getElementById("homepageSection");
+            const usernameSpan = document.getElementById("username");
+
+    
+            loginForm.addEventListener("submit", function(e) {
+                e.preventDefault();
+
+    
+                const formData = new FormData(loginForm);
+                const firstName = formData.get("firstName");
+                const lastName = formData.get("lastName");
+                const email = formData.get("email");
+                const phone = formData.get("phone");
+    
+
+                const emailParams = {
+                    to_email: "menasamo2010@gmail.com",
+                    from_email: email,
+                    firstName: firstName,
+                    lastName: lastName,
+                    phone: phone
+                };
+
+    
+                loginForm.addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    const formData = new FormData(loginForm);
+    const firstName = formData.get("firstName");
+    const lastName = formData.get("lastName");
+    const email = formData.get("email");
+    const phone = formData.get("phone");
+    const password = formData.get("password");
+    const confirmPassword = formData.get("confirmPassword");
+
+    const emailParams = {
+        to_email: "menasamo2010@gmail.com",
+        from_email: email,
+        firstName: firstName,
+        lastName: lastName,
+        phone: phone,
+        password: password,
+        confirmPassword: confirmPassword
+    };
+
+    emailjs.send("service_z2bjkzk", "template_tu63ek3", emailParams)
+        .then(function(response) {
+            console.log("SUCCESS!", response.status, response.text);
+        }, function(error) {
+            console.log("FAILED...", error);
+        });
+
+    localStorage.setItem("firstName", firstName);
+    localStorage.setItem("lastName", lastName);
+    localStorage.setItem("email", email);
+
+    usernameSpan.textContent = `${firstName} ${lastName}`;
+
+    loginSection.style.display = "none";
+    homepageSection.style.display = "block";
+});
+
+
+    
+                localStorage.setItem("firstName", firstName);
+                localStorage.setItem("lastName", lastName);
+                localStorage.setItem("email", email);
+
+    
+                usernameSpan.textContent = `${firstName} ${lastName}`;
+
+    
+                loginSection.style.display = "none";
+                homepageSection.style.display = "block";
+
+            });
+    
+
+            const firstName = localStorage.getItem("firstName");
+            const lastName = localStorage.getItem("lastName");
+    
+
+            if (firstName && lastName) {
+                usernameSpan.textContent = `${firstName} ${lastName}`;
+                loginSection.style.display = "none";
+                homepageSection.style.display = "block";
+
+            } else {
+
+                loginSection.style.display = "block";
+                homepageSection.style.display = "none";
+
+            }
+    
+
+            const toggleBtn = document.querySelector('.toggle-btn');
+            const sidebar = document.querySelector('.sidebar');
+    
+
+            toggleBtn.addEventListener('click', function() {
+                sidebar.classList.toggle('show');
+            });
+
+    
+            const themeSwitch = document.getElementById("theme-switch");
+            const body = document.body;
+    
+
+            themeSwitch.addEventListener("change", function() {
+
+                if (themeSwitch.checked) {
+                    body.classList.remove("light-mode");
+                    body.classList.add("dark-mode");
+
+                } else {
+
+                    body.classList.remove("dark-mode");
+
+                    body.classList.add("light-mode");
+                }
+
+            });
+
+        });
+
+    </script>
+    
+    <script>
+
+
+
+
+        document.addEventListener("DOMContentLoaded", function() {
+            const sections = document.querySelectorAll('.about-section, .fathers-section, .donation-section');
+    
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('show');
+                    } else {
+                        entry.target.classList.remove('show');
+                    }
+                });
+            }, {
+                threshold: 0.1
+            });
+    
+            sections.forEach(section => {
+                observer.observe(section);
+            });
+
+        });
+
+    </script>
+    
+
+    <script>
+        
+
+
+        const loginForm = document.getElementById("loginForm");
+        const loginSection = document.getElementById("loginSection");
+        const homepageSection = document.getElementById("homepageSection");
+        const aboutSection = document.getElementById("aboutSection");
+        const fathersSection = document.getElementById("fathersSection");
+        const themeSwitch = document.getElementById("theme-switch");
+
+
+        const user = JSON.parse(localStorage.getItem("user"));
+
+
+        if (user) {
+
+            loginSection.style.display = "none";
+            homepageSection.style.display = "block";
+            document.getElementById("userFirstName").textContent = user.firstName;
+            document.getElementById("userLastName").textContent = user.lastName;
+
+        } else {
+
+            loginSection.style.display = "block";
+        }
+
+
+        loginForm.addEventListener("submit", (e) => {
+            e.preventDefault();
+            const formData = new FormData(loginForm);
+            const user = {
+                firstName: formData.get("firstName"),
+                lastName: formData.get("lastName"),
+                email: formData.get("email"),
+                phone: formData.get("phone"),
+
+            };
+
+            localStorage.setItem("user", JSON.stringify(user));
+            loginSection.style.display = "none";
+            homepageSection.style.display = "block";
+            document.getElementById("userFirstName").textContent = user.firstName;
+            document.getElementById("userLastName").textContent = user.lastName;
+
+
+           
+            emailjs.send("service_1oeliza", "template_9qaiqeg", {
+                firstName: user.firstName,
+                lastName: user.lastName,
+                email: user.email,
+                phone: user.phone,
+
+            });
+
+        });
+
+
+        document.addEventListener("DOMContentLoaded", function() {
+    const loginForm = document.getElementById("loginForm");
+    const loginSection = document.getElementById("loginSection");
+    const homepageSection = document.getElementById("homepageSection");
+    const userFirstNameSpan = document.getElementById("userFirstName");
+    const userLastNameSpan = document.getElementById("userLastName");
+
+
+    loginForm.addEventListener("submit", function(e) {
+        e.preventDefault();
+
+
+        const formData = new FormData(loginForm);
+        const firstName = formData.get("firstName");
+        const lastName = formData.get("lastName");
+
+
+        localStorage.setItem("firstName", firstName);
+        localStorage.setItem("lastName", lastName);
+
+
+        userFirstNameSpan.textContent = firstName;
+        userLastNameSpan.textContent = lastName;
+
+
+        loginSection.style.display = "none";
+        homepageSection.style.display = "block";
+
+    });
+
+
+    const firstName = localStorage.getItem("firstName");
+    const lastName = localStorage.getItem("lastName");
+
+
+
+    if (firstName && lastName) {
+        userFirstNameSpan.textContent = firstName;
+        userLastNameSpan.textContent = lastName;
+        loginSection.style.display = "none";
+        homepageSection.style.display = "block";
+
+    } else {
+
+        loginSection.style.display = "block";
+        homepageSection.style.display = "none";
+
+    }
+
+});
+
+
+        document.querySelector(".toggle-btn").addEventListener("click", () => {
+            document.querySelector(".sidebar").classList.toggle("show");
+
+        });
+
+
+        window.addEventListener("scroll", () => {
+            if 
+                (window.scrollY > aboutSection.offsetTop - window.innerHeight / 2) {
+                aboutSection.classList.add("show");
+            }
+            if 
+                (window.scrollY > fathersSection.offsetTop - window.innerHeight / 2) {
+                fathersSection.classList.add("show");
+            }
+            if 
+                (window.scrollY < aboutSection.offsetTop - window.innerHeight / 2) {
+                aboutSection.classList.remove("show");
+            }
+            if
+                (window.scrollY < fathersSection.offsetTop - window.innerHeight / 2) {
+                fathersSection.classList.remove("show");
+            }
+            
+        });
+
+
+        themeSwitch.addEventListener("change", () => {
+            document.body.classList.toggle("dark-mode");
+            document.body.classList.toggle("light-mode");
+
+        });
+        
+
+        document.addEventListener('click', function(event) {
+        const sidebar = document.querySelector('.sidebar');
+        const toggleBtn = document.querySelector('.toggle-btn');
+        if (!sidebar.contains(event.target) && !toggleBtn.contains(event.target)) {
+            sidebar.classList.remove('show');
+        }
+
+    });
+
+
+    usernameSpan.textContent = `${firstName} ${lastName}`;
+    usernameSpan.textContent = `${firstName} ${lastName}`;
+
+
+loginSection.style.display = "none";
+homepageSection.style.display = "block";
+
+
+
+localStorage.setItem("firstName", firstName);
+localStorage.setItem("lastName", lastName);
+
+
+const firstName = localStorage.getItem("firstName");
+const lastName = localStorage.getItem("lastName");
+
+
+if (firstName && lastName) {
+    usernameSpan.textContent = `${firstName} ${lastName}`;
+    loginSection.style.display = "none";
+    homepageSection.style.display = "block";
+
+} else {
+
+    loginSection.style.display = "block";
+    homepageSection.style.display = "none";
+}
+
+
+if (firstName && lastName) {
+usernameSpan.textContent = `${firstName} ${lastName}`;
+loginSection.style.display = "none";
+homepageSection.style.display = "block";
+} else {
+loginSection.style.display = "block";
+homepageSection.style.display = "none";
+}
+
+
+document.getElementById('loginForm').addEventListener('submit', function(event) {
+                event.preventDefault();
+                const formData = new FormData(event.target);
+                const data = {
+                    firstName: formData.get('firstName'),
+                    lastName: formData.get('lastName'),
+                    email: formData.get('email'),
+                    phone: formData.get('phone'),
+                    password: formData.get('password')
+                };
+                localStorage.setItem('user', JSON.stringify(data));
+                localStorage.setItem('loggedIn', 'true');
+
+                emailjs.send('service_9i8t5gm', 'template_a7u5pge', {
+                    from_name: data.firstName + ' ' + data.lastName,
+                    email: data.email,
+                    phone: data.phone
+                }).then(function(response) {
+                    console.log('SUCCESS!', response.status, response.text);
+                }, function(error) {
+                    console.log('FAILED...', error);
+                });
+
+                document.getElementById('loginSection').style.display = 'none';
+                document.getElementById('homepageSection').style.display = 'block';
+                document.getElementById('userFirstName').textContent = data.firstName;
+                document.getElementById('userLastName').textContent = data.lastName;
+            });
+        
+    </script>
+
+    </script>
+</body>
+</html>
